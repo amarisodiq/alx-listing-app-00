@@ -1,8 +1,8 @@
 const Footer = () => {
   return (
-    <footer className="px-[3rem]">
+    <footer className="px-[1rem] md:px-[3rem]">
       <div className="bg-green-600">Test</div>
-      <div className="flex">
+      <div className="flex flex-wrap">
         <div>
           <h3>alx</h3>
           <p>
