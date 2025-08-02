@@ -1,7 +1,6 @@
 import Head from 'next/head'
-import Card from '../components/common/Card'
+import Card from '@/components/common/card'
 import Button from '../components/common/Button'
-
 export default function Home() {
   const handleBookNow = () => {
     alert('Booked!')
@@ -30,3 +29,6 @@ export default function Home() {
     </>
   )
 }
+
+
+
